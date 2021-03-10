@@ -51,6 +51,10 @@
   border-bottom: none;
 }
 
+.MuiSvgIcon-root {
+  margin-left: 5px;
+}
+
 .header-option .MuiSvgIcon-root {
   color: gray;
 }
