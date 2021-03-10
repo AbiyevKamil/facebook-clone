@@ -3,3 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.app {
+  background-color: #f1f2f5;
+}
+
+.app-body {
+  display: flex;
+}

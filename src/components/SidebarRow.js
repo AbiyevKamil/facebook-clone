@@ -1,10 +1,14 @@
 import React from "react";
 import "../styles/SidebarRow.css";
+import { Avatar } from "@material-ui/core";
 
-function SidebarRow() {
+function SidebarRow({ src, Icon, title }) {
   return (
     <div className={"sidebar-row"}>
-      <SidebarRow />
+      {src && <Avatar src={src} />}
+      {Icon && <Icon />}
+
+      <h4>{title}</h4>
     </div>
   );
 }
