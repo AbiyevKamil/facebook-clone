@@ -21,6 +21,11 @@
   font-size: medium;
 }
 
+.time {
+  font-size: 14px;
+  color: gray;
+}
+
 .post-bottom {
   margin-top: 10px;
   margin-bottom: 10px;
