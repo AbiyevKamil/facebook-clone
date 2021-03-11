@@ -5,9 +5,8 @@ import Feed from "./components/Feed";
 import Login from "./components/Login";
 import { useStateValue } from "./Redux/StateProvider";
 
-
 function App() {
-  const [{user}, dispatch] = useStateValue();
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="app">
       {!user ? (

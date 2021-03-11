@@ -8,6 +8,10 @@
   width: 100%;
 }
 
+input {
+  outline: none;
+}
+
 .message-sender-top {
   display: flex;
   border-bottom: 1px solid #eff2f5;
