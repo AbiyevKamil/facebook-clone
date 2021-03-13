@@ -28,7 +28,7 @@ function Header() {
         </div>
       </div>
       <div className="header-center">
-        <div className="header-option header-option-active">
+        <div className="header-option-active">
           <HomeIcon fontSize={"large"} />
         </div>
         <div className="header-option">
@@ -49,7 +49,7 @@ function Header() {
           <Avatar src={user.photoURL} />
           <h4>{user.displayName}</h4>
         </div>
-        <IconButton>
+        <IconButton> 
           <AddIcon />
         </IconButton>
         <IconButton>

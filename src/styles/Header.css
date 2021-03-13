@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  padding: 15px 20px;
+  padding: 3px 20px;
   justify-content: space-between;
   position: sticky;
   background-color: white;
@@ -11,22 +11,31 @@
 
 .header-left {
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+}
+
+.header-input .MuiSvgIcon-root {
+  color: gray;
 }
 
 .header-input {
   display: flex;
   align-items: center;
   background-color: #eff2f5;
-  padding: 10px;
+  padding: 8px;
   margin-left: 10px;
   border-radius: 999px;
+  align-self: center;
+  width: 240px;
 }
 
 .header-input input {
   border: none;
   background-color: transparent;
   outline-width: 0;
+  width: 90%;
+  padding-left: 10px;
 }
 
 .header-center {
@@ -39,8 +48,10 @@
 .header-option {
   display: flex;
   align-items: center;
-  padding: 0 30px;
+  padding: 10px 30px;
   cursor: pointer;
+  margin-left: 5px;
+  height: 100%;
 }
 
 .header-option:hover {
@@ -51,16 +62,8 @@
   border-bottom: none;
 }
 
-.MuiSvgIcon-root {
-  margin-left: 5px;
-}
-
 .header-option .MuiSvgIcon-root {
   color: gray;
-}
-
-.header-option:hover .MuiSvgIcon-root {
-  color: #2e81f4;
 }
 
 .header-option-active .MuiSvgIcon-root {
@@ -69,6 +72,19 @@
 
 .header-option-active {
   border-bottom: 4px solid #2e81f4;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+  margin-left: 5px;
+  height: 100%;
+}
+
+.header-option-active:hover {
+  background-color: #fff;
+  border-bottom: 4px solid #2e81f4;
+  align-items: center;
+  padding: 0 30px;
 }
 
 .header-right {
@@ -79,6 +95,7 @@
 .header-info {
   display: flex;
   align-items: center;
+  margin-right: 10px;
 }
 
 .header-info h4 {

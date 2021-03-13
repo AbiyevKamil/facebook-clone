@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
 }
 
 .app {
   background-color: #f1f2f5;
-}
+} 
 
 .app-body {
   display: flex;
