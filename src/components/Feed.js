@@ -26,7 +26,7 @@ function Feed() {
       <MessageSender />
       {posts.map((post) => (
         <Post
-          key={Math.floor(Math.random() * 1000)}
+          key={Math.floor(Math.random() * 10000000000)}
           profilePic={post.data.profilePic}
           message={post.data.message}
           timestamp={post.data.timestamp}
